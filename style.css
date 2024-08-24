@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+.ad {
+  width: 100%;
+  height: 40px;
+  background-color: #8aceff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.navbar {
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4%;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.navbar .left {
+  width: 30%;
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar .left div {
+  line-height: 30px;
+  text-align: center;
+  color: #6c2304;
+}
+
+.navbar .left img {
+  width: 100px;
+}
+
+.navbar .right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar .right button {
+  color: #6c2304;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  border-style: none;
+  background-color: rgb(243, 246, 250);
+}
+
+.navbar .right img {
+  width: 40px;
+}
+
+.main {
+  width: 100%;
+  height: 83vh;
+  background-color: #53d4c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.main img {
+  width: 45%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.main .left {
+  width: 600px;
+  height: 300px;
+}
+
+.main p {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 0.02em;
+}
+
+.main h1 {
+  font-size: 2.7rem;
+  font-family: "Gravitas One", serif;
+  font-weight: bold;
+  color: black;
+}
+
+.main h3 {
+  font-size: 2.7rem;
+  font-family: Roboto Slab, serif;
+  font-weight: 400;
+  color: black;
+}
+
+.main button {
+  width: 200px;
+  height: 60px;
+  font-family: "Gravitas One", serif;
+  font-weight: bolder;
+  border-radius: 30px;
+  color: rgb(90, 31, 6);
+  border-color: #181210;
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main .left button img {
+  width: 40px;
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #53d4c0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+}
+
+.section1 .left {
+  width: 380px;
+  height: 480px;
+  background-color: #d7a1ff;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: black;
+  text-align: center;
+}
+
+.section1 .right {
+  width: 380px;
+  height: 480px;
+  background-color: #ed9418;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: black;
+  text-align: center;
+}
+
+.section1 .center {
+  width: 380px;
+  height: 480px;
+  background-color: #0e74e1;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+}
+
+.section1 img {
+  width: 330px;
+}
+
+.section2 {
+  width: 100%;
+  height: 140vh;
+  background-color: #ffd200;
+}
+
+.ourmission {
+  width: 100%;
+  height: 280px;
+  background-color: #ffd200;
+  text-align: center;
+  color: rgb(90, 31, 6);
+}
+
+.ourmission button {
+  width: 350px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  background-color: white;
+  font-size: 18px;
+}
+
+.text {
+  width: 100%;
+  height: 150px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-weight: bold;
+  font-style: normal;
+  background-color: #ffd200;
+  position: relative;
+  padding-left: 40%;
+  font-size: 150px;
+  color: white;
+}
+
+.mission {
+  width: 100%;
+  height: 400px;
+  background-color: #ffd200;
+  background-image: url(https://cdn.media.amplience.net/i/marsmmsprod/mms-mission-characters-desktop-2?%24i%24=&w=1224&fmt=auto&qlt=default);
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 0 6%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mission div {
+  width: 150px;
+  height: 280px;
+}
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  padding: 0 4%;
+  background-color: rgb(243, 246, 250);
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 5%;
+}
+
+.content .left {
+  width: 33%;
+}
+
+.content .left img {
+  width: 100%;
+  height: 600px;
+  border: 0.25rem solid #ffd8fc;
+  border-radius: 999rem 999rem 0 0;
+}
+
+.content .right {
+  width: 50%;
+}
+
+.content .right h1 {
+  font-size: 2.5rem;
+  font-family: "Gravitas One", serif;
+  font-weight: bold;
+  color: rgb(90, 31, 6);
+}
+
+.mySwiper1 {
+  width: 100%;
+  height: 400px;
+}
+
+.mySwiper1 .swiper-slide-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  text-align: center;
+}
+
+.mySwiper1 h3 {
+  font-family: "Gravitas One", serif;
+  font-weight: bold;
+  padding-top: 20%;
+}
+
+.mySwiper1 a {
+  color: black;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-direction: column;
+}
+
+.section4 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(243, 246, 250);
+}
+
+.birthday h1 {
+  font-size: 2.5rem;
+  font-family: "Gravitas One", serif;
+  font-weight: bold;
+  color: #fa6400;
+}
+
+.swiper {
+  width: 82%;
+  height: 100vh;
+}
+
+.swiper-slide img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.swiper a {
+  color: black;
+}
+
+.swiper h1 {
+  padding-top: 4%;
+  font-size: 1rem;
+  font-family: Roboto Slab, serif;
+}
+
+.swiper p {
+  padding-top: 2%;
+  font-size: 1rem;
+  font-family: Roboto Slab, serif;
+}
+
+.swiper-slide {
+  width: 100%;
+  height: 70vh;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(243, 246, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section5 {
+  width: 100%;
+  height: 130vh;
+  background-color: #f3f6fa;
+}
+
+.section5 .personal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.section5 .left {
+  width: 380px;
+  height: 550px;
+  background-color: #0e74e1;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+}
+
+.section5 .center {
+  width: 380px;
+  height: 550px;
+  background-color: #005e20;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: white;
+  text-align: center;
+}
+
+.section5 .right {
+  width: 380px;
+  height: 550px;
+  background-color: #8aceff;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 22px;
+  flex-wrap: wrap;
+  color: black;
+  text-align: center;
+}
+
+.section5 img {
+  width: 330px;
+}
+
+.section5 button {
+  width: 320px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid white;
+  color: white;
+  font-family: Roboto Slab, serif;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.section6 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f3f6fa;
+}
+
+.mySwiper {
+  width: 82%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.mySwiper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper h1 {
+  font-size: 3rem;
+  font-family: "Gravitas One", serif;
+  font-weight: bold;
+  color: #00403e;
+  padding-left: 20%;
+  padding-top: 6%;
+}
+
+.footer {
+  width: 100%;
+  height: 130vh;
+  background-color: #f3f6fa;
+}
+
+.footer1 {
+  width: 100%;
+  height: 400px;
+  background-color: #ffd200;
+  display: flex;
+  justify-content: center;
+}
+
+.footer1 img {
+  width: 70%;
+  height: 400px;
+}
+
+.footer2 {
+  width: 100%;
+  height: 200px;
+  padding: 0 10%;
+  background-color: #f3f6fa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer2 div {
+  padding-right: 6%;
+}
+
+.footer2 h1 {
+  font-size: larger;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  color: black;
+}
+
+.footer2 p {
+  font-size: 14px;
+  font-family: Roboto Slab, serif;
+  color: black;
+}
+
+.footer2 span {
+  font-size: 14px;
+  font-family: Roboto Slab, serif;
+  color: rgb(90, 31, 6);
+  border-bottom: 2px solid #ffd200;
+}
+
+.footer2 i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.footer3 {
+  width: 100%;
+  height: 450px;
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #f3f6fa;
+}
+
+.footer li {
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.footer3 a {
+  color: black;
+}
+
+.footer3 .ul-1 {
+  width: 300px;
+  height: 420px;
+}
+
+.footer3 .ul-1 h1 {
+  font-size: xx-large;
+  font-family: Roboto Slab, serif;
+  color: #5a1f06;
+  line-height: 33px;
+}
+
+.footer3 .ul-1 p {
+  font-size: 0.90rem;
+  font-weight: 500;
+}
+
+.footer3 input {
+  width: 300px;
+  height: 60px;
+  border: none;
+  background-color: #f3f6fa;
+  border-bottom: 1px solid rgb(56, 56, 56);
+}
+
+.footer3 button {
+  width: 300px;
+  height: 60px;
+  border-radius: 50px;
+  border: none;
+  font-family: Roboto Slab, serif;
+  font-weight: bold;
+  background-color: #ffd200;
+  font-size: 18px;
+  color: #5a1f06;
+}
+
+.footer3 .ul-2 {
+  width: 250px;
+  height: 300px;
+}
+
+.footer3 .ul-2 h1 {
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  color: #5a1f06;
+}
+
+.footer3 .ul-3 {
+  width: 250px;
+  height: 300px;
+}
+
+.footer3 .ul-3 h1 {
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  color: #5a1f06;
+}
+
+.footer3 .ul-4 {
+  width: 300px;
+  height: 300px;
+}
+
+.footer3 .ul-4 h1 {
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  color: #5a1f06;
+}
+
+.footer3 .ul-4 i {
+  padding: 0 3%;
+  color: #5a1f06;
+}
+
+.footer4 {
+  width: 100%;
+  height: 150px;
+  padding: 1% 10%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #f3f6fa;
+}
+
+.footer4 .mars {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer4 .since {
+  width: 900px;
+  height: 100px;
+  font-size: 1rem;
+}
+
+.footer4 ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 10px;
+  padding: 1%;
+}
+
+.footer4 button {
+  width: 140px;
+  height: 20px;
+  background-color: #f3f6fa;
+  color: black;
+  border-style: none;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  font-weight: 500;
+}
+
+.footer4 i {
+  padding-left: 2%;
+}
